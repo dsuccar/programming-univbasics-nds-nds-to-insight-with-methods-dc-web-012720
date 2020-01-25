@@ -32,8 +32,8 @@ while director_index < nds.length do
 
 
 
- answer[director[:name]] = gross_for_director(director)
-binding.pry
+answer[director[:name]] = gross_for_director(director)
+ binding.pry
  director_index += 1
 end
 
